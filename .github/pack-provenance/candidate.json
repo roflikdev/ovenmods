@@ -1,0 +1,667 @@
+{
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.266",
+  "mods": [
+    {
+      "name": "create",
+      "project_id": "LNytGWDc",
+      "project_url": "https://modrinth.com/mod/create",
+      "side": "both",
+      "version": "6.0.10+mc1.21.1",
+      "version_id": "UjX6dr61",
+      "version_type": "release",
+      "license": "LicenseRef-Create-Mod-License",
+      "file": "create-1.21.1-6.0.10.jar",
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "size": 19123767,
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "sha512": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b",
+      "dependencies": []
+    },
+    {
+      "name": "aeronautics",
+      "project_id": "oWaK0Q19",
+      "project_url": "https://modrinth.com/mod/create-aeronautics",
+      "side": "both",
+      "version": "1.3.3+mc1.21.1",
+      "version_id": "demX2roU",
+      "version_type": "release",
+      "license": "LicenseRef-Simulated-Project-License",
+      "file": "create-aeronautics-bundled-1.21.1-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/demX2roU/create-aeronautics-bundled-1.21.1-1.3.3.jar",
+      "size": 33133981,
+      "sha256": "f430c52eedc1a20f7458c9f5b07cc212fe90869bd302c69c6dedf7b75a2a5c9f",
+      "sha512": "e28026fd6447b997f2c9b81c1d939094cf26c5c8572c6194b65282106f17257729efaecec670d0f2c84c6d7b2160102b08abb4e5822cf0fc01a4f4c74e5640a8",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "aeroworks",
+      "project_id": "P26k79kP",
+      "project_url": "https://modrinth.com/mod/create-aeroworks",
+      "side": "both",
+      "version": "1.5.0+mc1.21.1",
+      "version_id": "6kk7ruR3",
+      "version_type": "release",
+      "license": "LicenseRef-Create-Aeroworks-License",
+      "file": "aeroworks-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/P26k79kP/versions/6kk7ruR3/aeroworks-1.5.0.jar",
+      "size": 790152,
+      "sha256": "7e9745569a75eb613a9f75c9308aa2c806d3f0fab3a272d98647a13d3fa41641",
+      "sha512": "d79435aaf9c8d8697d1cb5a95b2189ab00ac1387dcbcdc0fbd701a25a22678eba2107e55b8da47bf0089282280ee2b3ff36418d9d7bda744b210d5fa5f4ca697",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "steam_n_rails",
+      "project_id": "L3Jv0QZI",
+      "project_url": "https://modrinth.com/mod/create-steam-n-rails-1.21.1",
+      "side": "both",
+      "version": "0.2.1+neoforge-mc1.21.1",
+      "version_id": "HOPX5oro",
+      "version_type": "release",
+      "license": "LGPL-3.0-or-later",
+      "file": "railways-0.2.1+neoforge-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/L3Jv0QZI/versions/HOPX5oro/railways-0.2.1%2Bneoforge-mc1.21.1.jar",
+      "size": 12118736,
+      "sha256": "b7636c8b1b0352ed1a130dfe67f8bb574e2fc08803ed1cda4d3ea00505193914",
+      "sha512": "dac8efb7c8b4b525114c2548bd2a8254d3b1e9e44664ba84b0f4e8467e1584029f8a219dd1ddf4389ab0a94e525183ee7753d33babdf319926cd63d2fc9cdffd",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "crafts_additions",
+      "project_id": "kU1G12Nn",
+      "project_url": "https://modrinth.com/mod/createaddition",
+      "side": "both",
+      "version": "neoforge-1.21.1-1.7.2",
+      "version_id": "hsjVajlP",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "createaddition-1.7.2.jar",
+      "url": "https://cdn.modrinth.com/data/kU1G12Nn/versions/hsjVajlP/createaddition-1.7.2.jar",
+      "size": 1772844,
+      "sha256": "71e9c3ac39089e72c1e47a129a44e41eb55efc9534eecfdead8da8fb64313414",
+      "sha512": "f3a3ddb5600189da818fc71ea659d17f0d1097c5ad664433eed400b3ecc67d0f9305b348e5b7c5fd872d7a6e51330c7158b3181e77192c576c205a74dd0298ff",
+      "dependencies": []
+    },
+    {
+      "name": "big_cannons",
+      "project_id": "GWp4jCJj",
+      "project_url": "https://modrinth.com/mod/create-big-cannons",
+      "side": "both",
+      "version": "5.11.7",
+      "version_id": "bOiDu0LS",
+      "version_type": "release",
+      "license": "LicenseRef-Create-Big-Cannons-License",
+      "file": "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar",
+      "size": 3771506,
+      "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca",
+      "sha512": "24f414dfbb973a0f4d9c9b2aa059edc7bed4d23b4f39eb1f7d23a1d6b437e3b5d64cca6e4b85ff7eb2815743fa711d54ad652bffe96d1eb1234544716006440d",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "B3pb093D",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "deco",
+      "project_id": "sMvUb4Rb",
+      "project_url": "https://modrinth.com/mod/create-deco",
+      "side": "both",
+      "version": "2.1.3",
+      "version_id": "qrcMVoBD",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "createdeco-2.1.3-ovenfix.jar",
+      "url": "local:patched/createdeco-2.1.3-ovenfix.jar",
+      "size": 3323381,
+      "sha256": "5bb4e2798b191302c9cfa4bf6f332b3266431738b6a2bf8edb97d8609cd562f6",
+      "sha512": "91970621d22c28c35036b494cf0481a627f07987e08c2e072516dbe3eb2318fd170ca046b3c38096130d456dfc59cf665004370c5ac7f16861de55b06d0845ff",
+      "dependencies": [],
+      "original_file": "createdeco-2.1.3.jar",
+      "original_sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e",
+      "original_sha512": "c536662f9d47ad57a37419165ded14835b23ad6c3e82a920298ecd7ee074244b0b6062ef9cc7ea4501ddd35919a840faccd7fc64e43eb8df31e12076681c3c0d",
+      "source_url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/qrcMVoBD/createdeco-2.1.3.jar",
+      "patch": {
+        "path": "data/createdeco/recipe/placard.json",
+        "change": "ingredient id -> item for Minecraft 1.21.1"
+      }
+    },
+    {
+      "name": "diesel_generators",
+      "project_id": "ZM3tt6p1",
+      "project_url": "https://modrinth.com/mod/create-diesel-generators",
+      "side": "both",
+      "version": "1.21.1-1.3.16",
+      "version_id": "yzsE99E2",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "createdieselgenerators-1.21.1-1.3.16.jar",
+      "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/yzsE99E2/createdieselgenerators-1.21.1-1.3.16.jar",
+      "size": 3155795,
+      "sha256": "e04eba6ea9b959f0e8fdfe2aeceafd445ccd777a0a0e5aacd011123d49cdffcd",
+      "sha512": "af43bdbceb4b3443833ee8e97ff7b516516c3bd785efb7e4fd6befb436f65964e53ead3bec77a45ef86ebb2d8057f9cd6c85fda2eff87707c2c7becd0e3c85fb",
+      "dependencies": [
+        {
+          "version_id": "Nrn7hYca",
+          "project_id": "sHO3MhQx",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "design_decor",
+      "project_id": "x49wilh8",
+      "project_url": "https://modrinth.com/mod/create-design-n-decor",
+      "side": "both",
+      "version": "2.2b",
+      "version_id": "uQsIRky8",
+      "version_type": "release",
+      "license": "LicenseRef-MIT-Code-AND-ARR-Art",
+      "file": "Design-n-Decor-1.21.1-2.2b.jar",
+      "url": "https://cdn.modrinth.com/data/x49wilh8/versions/uQsIRky8/Design-n-Decor-1.21.1-2.2b.jar",
+      "size": 6329899,
+      "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f",
+      "sha512": "d888553c8a254c3654f8da2ae2cae0bb642594546c71988739c93bf6b18668145e0ce5b1c20ae0544b9b6019f17e4da944bd5bc17e4c6b73e7f1374cfa2c9db9",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "going_ballistic",
+      "project_id": "xxaCKdq3",
+      "project_url": "https://modrinth.com/mod/create-big-cannons-going-ballistic",
+      "side": "both",
+      "version": "0.3.3",
+      "version_id": "jZYqOybZ",
+      "version_type": "beta",
+      "license": "MIT",
+      "file": "cbc_going_ballistic-0.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/xxaCKdq3/versions/jZYqOybZ/cbc_going_ballistic-0.3.3.jar",
+      "size": 214838,
+      "sha256": "642a7849d16b2dc7e9ce139e21c2512413bb39e6999829107bce6fed7f455002",
+      "sha512": "5cdff917ad47a538998b4b0852185e91bf6c329133a294d0c0dc1b43b81568f38b03c7352e23abca4abf65e49960a513217eb8c691d640c4583976fe8d41d8c4",
+      "dependencies": [
+        {
+          "version_id": "bOiDu0LS",
+          "project_id": "GWp4jCJj",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "radars",
+      "project_id": "BLu2Yqfq",
+      "project_url": "https://modrinth.com/mod/create-radars",
+      "side": "both",
+      "version": "5.1.3-1.21.1",
+      "version_id": "ayKJWhGv",
+      "version_type": "release",
+      "license": "LicenseRef-Arsenalists-of-Create-Source-Available-License",
+      "file": "create_radar-5.1.3-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/BLu2Yqfq/versions/ayKJWhGv/create_radar-5.1.3-1.21.1.jar",
+      "size": 5736688,
+      "sha256": "f06300fe8a5e663720f38944094b2f367d6912e15a4e1c6c0daf4369cb6d2c25",
+      "sha512": "ec7901d75bf16ca6c1f0507840a0d8e65629e67940b4959401d776b68e45ef3c4e07c329a2507cb9ec70eb1ea4e1bbaf84435585e28e04acc40ce08f0313802a",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "GWp4jCJj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "propulsion",
+      "project_id": "ApkoHNO9",
+      "project_url": "https://modrinth.com/mod/create-propulsion-simulated",
+      "side": "both",
+      "version": "1.1.5",
+      "version_id": "H13U56dc",
+      "version_type": "release",
+      "license": "LicenseRef-GPL-3.0-and-CC-BY-NC-SA-4.0",
+      "file": "createpropulsion-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion-1.1.5.jar",
+      "size": 1707765,
+      "sha256": "5525a3a0c8b1c476cbc467d021e9d1492b58c78de31ed269eb04f169d42db0a1",
+      "sha512": "6096c9c5cb220219a0b58b56f9fefd63f8b79a0967d326727b4206d62df1813da73956aeae2fa5b839160a1bb5af8e099726d12d2d93f10e5f157beb85bb9c52",
+      "dependencies": []
+    },
+    {
+      "name": "aeronautics_compat",
+      "project_id": "aLVC5usA",
+      "project_url": "https://modrinth.com/mod/create-aeronautics-compatability",
+      "side": "both",
+      "version": "1.1.3",
+      "version_id": "j10zlI9h",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "aeronauticscompat-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/aLVC5usA/versions/j10zlI9h/aeronauticscompat-1.1.3.jar",
+      "size": 43764,
+      "sha256": "5204e1f901f20749673e384d18f73c1222f97c3efce28ff75c8fe782a55b1226",
+      "sha512": "405b7d581a967181c9de1289e0e6b2469b510e5a486cef5225f8b64cbdec37bd7786f9d598ef29b26587d5f7a390823708552bab6ab0163c7bae36a29d5e77fc",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "air_war",
+      "project_id": "GMrNnOis",
+      "project_url": "https://modrinth.com/mod/create-the-air-war",
+      "side": "both",
+      "version": "5.00",
+      "version_id": "moqz93W3",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "create_the_air_wars-5.00-ovenfix.jar",
+      "url": "local:patched/create_the_air_wars-5.00-ovenfix.jar",
+      "size": 21330829,
+      "sha256": "f9362a27384292ab9422f946e62b61e4ccb0bedb07dd9c6f966bdfd896fd3290",
+      "sha512": "e46a2557631aca9b9ca27b82e9dd2af3f02bf09acf5bd87236dbc0bd7a686fe2de74dfc536295c67f3d7efb59175ccc9a483446a4620adaca1e2bb62b37f2c95",
+      "dependencies": [],
+      "original_file": "create_the_air_wars-5.00.jar",
+      "original_sha256": "09f87736350cc23eb578b9868d7767268ef748b1ede8a995c51ee788282e6c1c",
+      "original_sha512": "be45b4cfa6db193799f42620a7c13d63bfb4ff8bf583fd04617f883233a4e58225c092fb4453e72856205b3adaafebf52e952c5bf232ea8188e86acd142fc96c",
+      "patch": {
+        "path": "assets/create_the_air_wars/models/entity/fab_1500.json",
+        "rotations": [
+          [
+            -17.5,
+            -22.5
+          ],
+          [
+            17.5,
+            22.5
+          ],
+          [
+            -10,
+            0
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "purpose": "Replace unsupported Minecraft 1.21.1 model angles"
+      },
+      "source_url": "https://cdn.modrinth.com/data/GMrNnOis/versions/moqz93W3/create_the_air_wars-5.00.jar"
+    },
+    {
+      "name": "collision_damage",
+      "project_id": "Jm4nvDTr",
+      "project_url": "https://modrinth.com/mod/sable-create-aeronautics-collision-damage",
+      "side": "both",
+      "version": "1.0.8-Sable_2.0.0+",
+      "version_id": "snRIIWNz",
+      "version_type": "beta",
+      "license": "MIT",
+      "file": "sablecollisiondamage-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/Jm4nvDTr/versions/snRIIWNz/sablecollisiondamage-1.0.8.jar",
+      "size": 42942,
+      "sha256": "a053bc5aba63563918608dd9a53077d7dc832ce32066322fc0f0235c0deda62a",
+      "sha512": "4fb775f34641bac24a2846e123c587616c43032b69576536c464f11ac855bae43e9a73d457ce57568d841a721a05192d7fad8ac2ac1078c5e7a81738eacea68d",
+      "dependencies": [
+        {
+          "version_id": "Zkc9s9Dm",
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "sable",
+      "project_id": "T9PomCSv",
+      "project_url": "https://modrinth.com/mod/sable",
+      "side": "both",
+      "version": "2.0.6+mc1.21.1",
+      "version_id": "fg9dTRz9",
+      "version_type": "release",
+      "license": "LicenseRef-PolyForm-Shield-License-1.0.0",
+      "file": "sable-neoforge-1.21.1-2.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/T9PomCSv/versions/fg9dTRz9/sable-neoforge-1.21.1-2.0.6.jar",
+      "size": 12986135,
+      "sha256": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2",
+      "sha512": "76d293ce751a01cb9c095a3659b0a41e03e005480bc9d76dfdc73ec7c2eabf7923740c7b077921d42616673c496cd5143569f2085ddcebe174fd91d81e2a04b8",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "3KUWeVhG",
+          "file_name": null,
+          "dependency_type": "embedded"
+        },
+        {
+          "version_id": null,
+          "project_id": "qy8EtCnG",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "rpl",
+      "project_id": "B3pb093D",
+      "project_url": "https://modrinth.com/mod/rpl",
+      "side": "both",
+      "version": "2.1.2",
+      "version_id": "hZ6B2Z0x",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar",
+      "size": 76369,
+      "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24",
+      "sha512": "6d64c84505a5a8fbb96d106603065465c5a2314ec09636900c5c1a31014c12fa68f1a41e758313cbf0d6f95d9a1f53bd67339020f7d8db0e184c23f66aee0330",
+      "dependencies": []
+    },
+    {
+      "name": "ferritecore",
+      "project_id": "uXXizFIs",
+      "project_url": "https://modrinth.com/mod/ferrite-core",
+      "side": "both",
+      "version": "7.0.3-neoforge",
+      "version_id": "x7kQWVju",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "ferritecore-7.0.3-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8",
+      "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417",
+      "dependencies": []
+    },
+    {
+      "name": "modernfix",
+      "project_id": "nmDcB62a",
+      "project_url": "https://modrinth.com/mod/modernfix",
+      "side": "both",
+      "version": "5.27.27+mc1.21.1",
+      "version_id": "ZDZENbHH",
+      "version_type": "release",
+      "license": "LGPL-3.0-only",
+      "file": "modernfix-neoforge-5.27.27+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZDZENbHH/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar",
+      "size": 614138,
+      "sha256": "7010aae2e837122fe8dabd5932358e2ba334fcbc62ca6530cb1cb00402d2c63b",
+      "sha512": "af14a35e51f1c5d94139c6225ae641e8b0ded5a8c68eb4806cf28025d6c043455ac289902cd6b854a867320ab845ad619b186d02b8341822faf03f4476dec555",
+      "dependencies": []
+    },
+    {
+      "name": "lithium",
+      "project_id": "gvQqBUqZ",
+      "project_url": "https://modrinth.com/mod/lithium",
+      "side": "both",
+      "version": "mc1.21.1-0.15.4-neoforge",
+      "version_id": "DDUrRVCA",
+      "version_type": "release",
+      "license": "LGPL-3.0-only",
+      "file": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "size": 774220,
+      "sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757",
+      "sha512": "2735da2088b88a8bdcd4ad02a2b6fffbfd3925557cefd4fa54b5477dfb9e582ea7f521300c060f57dff1325dd21bff276b7333363ad3371ed6893e3de9eca9cd",
+      "dependencies": []
+    },
+    {
+      "name": "servercore",
+      "project_id": "4WWQxlQP",
+      "project_url": "https://modrinth.com/mod/servercore",
+      "side": "server",
+      "version": "1.5.19+1.21.1",
+      "version_id": "6N9hXiRa",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "servercore-neoforge-1.5.19+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/4WWQxlQP/versions/6N9hXiRa/servercore-neoforge-1.5.19%2B1.21.1.jar",
+      "size": 1462674,
+      "sha256": "a5706aa0bb3a47c5f1adab44306685736688ec03414f60beb4fcbe05b99f5a82",
+      "sha512": "55b97df4cc46f52db85b96487188d73c62d511229d98859991c115414c5f1ab37f2f40a0f2edb5692220aa94d6c48b392b0a2d8593b3c3381b1fcbde2a728c8f",
+      "dependencies": []
+    },
+    {
+      "name": "chunky",
+      "project_id": "fALzjamp",
+      "project_url": "https://modrinth.com/mod/chunky",
+      "side": "server",
+      "version": "1.4.23",
+      "version_id": "LuFhm4eU",
+      "version_type": "release",
+      "license": "GPL-3.0-only",
+      "file": "Chunky-NeoForge-1.4.23.jar",
+      "url": "https://cdn.modrinth.com/data/fALzjamp/versions/LuFhm4eU/Chunky-NeoForge-1.4.23.jar",
+      "size": 340572,
+      "sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274",
+      "sha512": "2db769dd723f243a21e1881e7c9f825e9c193da6f2bed454b70cb6fa9e51c57f63fdcf017c0657bbd26f7bba30815413e27c74d3c7be0783390a96ee9baa4bf7",
+      "dependencies": []
+    },
+    {
+      "name": "spark",
+      "project_id": "l6YH9Als",
+      "project_url": "https://modrinth.com/mod/spark",
+      "side": "server",
+      "version": "1.10.124-neoforge",
+      "version_id": "v5qtqRQi",
+      "version_type": "release",
+      "license": "GPL-3.0-only",
+      "file": "spark-1.10.124-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
+      "size": 3642581,
+      "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
+      "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4",
+      "dependencies": []
+    },
+    {
+      "name": "fastsuite",
+      "project_id": "roccmqou",
+      "project_url": "https://modrinth.com/mod/fastsuite",
+      "side": "server",
+      "version": "1.21.1-6.0.7",
+      "version_id": "OQZRQcDM",
+      "version_type": "release",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "file": "FastSuite-1.21.1-6.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/roccmqou/versions/OQZRQcDM/FastSuite-1.21.1-6.0.7.jar",
+      "size": 28192,
+      "sha256": "cf4be0fb960654527d971b6848087c29cbef5fbe849ec9945a5259f75a72c354",
+      "sha512": "16356d513a7569d3b6815c4697b916098e0fdfbe2f2d0189c19099e95569a363d1442607b32666c7028a2c702040bdaf18b4224bcc5a39fe32dc38b00947534f",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "tCkE8p2N",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "placebo",
+      "project_id": "tCkE8p2N",
+      "project_url": "https://modrinth.com/mod/placebo",
+      "side": "server",
+      "version": "1.21.1-9.9.4",
+      "version_id": "B5zbSVlT",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "Placebo-1.21.1-9.9.4.jar",
+      "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/B5zbSVlT/Placebo-1.21.1-9.9.4.jar",
+      "size": 326063,
+      "sha256": "d8952c019d6e54befe37155bc9876985ec57bf73dd33872115c7a65ac6bceba0",
+      "sha512": "4f3a9c5974132f3638c262c56b0c2886df2bc58027c961aa11d06d0ae2e608b63f24f949b2f8c240989e2a1bfe303fd237c5f2d49269453ad6c2ff1f85f2c648",
+      "dependencies": []
+    },
+    {
+      "name": "clumps",
+      "project_id": "Wnxd13zP",
+      "project_url": "https://modrinth.com/mod/clumps",
+      "side": "server",
+      "version": "19.0.0.1",
+      "version_id": "jo7lDoK4",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "size": 18382,
+      "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e",
+      "sha512": "314d8d8e640d73041f27e0f3f2cad7aad8b4c77dbd7fb31700ef7760362261f77085eed5289555c725d99c3f47a114e7290cd608f39c9f0f12ef74958463bdcc",
+      "dependencies": []
+    },
+    {
+      "name": "sodium",
+      "project_id": "AANobbMI",
+      "project_url": "https://modrinth.com/mod/sodium",
+      "side": "client",
+      "version": "mc1.21.1-0.8.13-neoforge",
+      "version_id": "uMOpc5uV",
+      "version_type": "release",
+      "license": "LicenseRef-Polyform-Shield-1.0.0",
+      "file": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "size": 1292934,
+      "sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+      "sha512": "4f537696af95411e9daf15795fb5fcbc49913d488a96fa912fa8f1d7db408710995e8a1461190f3cd0f8217bf9e35e9539176592428ed587ca2d7aa84450a390",
+      "dependencies": []
+    },
+    {
+      "name": "immediatelyfast",
+      "project_id": "5ZwdcRci",
+      "project_url": "https://modrinth.com/mod/immediatelyfast",
+      "side": "client",
+      "version": "1.6.15+1.21.1-neoforge",
+      "version_id": "EJzmEPZV",
+      "version_type": "release",
+      "license": "LGPL-3.0-or-later",
+      "file": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/EJzmEPZV/ImmediatelyFast-NeoForge-1.6.15%2B1.21.1.jar",
+      "size": 368896,
+      "sha256": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702",
+      "sha512": "c115cad7b060373fc597aae08c685e2d56f173b88b792a4a2c229e222f8da293b99865e9553cf716483d3c3d6a18f31c51c5dd55be22d4625ed2c962d7b94fd0",
+      "dependencies": []
+    },
+    {
+      "name": "entityculling",
+      "project_id": "NNAgCjsB",
+      "project_url": "https://modrinth.com/mod/entityculling",
+      "side": "client",
+      "version": "1.12.2",
+      "version_id": "8uamSG2K",
+      "version_type": "release",
+      "license": "LicenseRef-tr7zw-Protective-License",
+      "file": "entityculling-neoforge-1.12.2-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/8uamSG2K/entityculling-neoforge-1.12.2-mc1.21.1.jar",
+      "size": 1524256,
+      "sha256": "9b4cf7678e8d3e5ee6a2110ca56d5be247c89bce28269804723f2c16c4c2f914",
+      "sha512": "03d7a4484f4d05ac8ec6dafdadac1de1b7be79580e3ccb5fadc7d04ca3285355826e5f5f9e5635543ad65197e4914d0c5f3702d4b8bdb6e0f43a752c9a8b43fa",
+      "dependencies": []
+    },
+    {
+      "name": "dynamic_fps",
+      "project_id": "LQ3K71Q1",
+      "project_url": "https://modrinth.com/mod/dynamic-fps",
+      "side": "client",
+      "version": "3.11.4",
+      "version_id": "T238FZpQ",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/T238FZpQ/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar",
+      "size": 220193,
+      "sha256": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e",
+      "sha512": "8eb18a280b265e598540306275b51a165836f4b14c6c703b6ced11fcac50bfab439e4deb69e222f62614a9f15fa0ef58e5bd84e20e37ae57755d9c2f8b134057",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "oven_tab",
+      "side": "both",
+      "file": "oventab-1.21.1-1.0.0.jar",
+      "sha256": "9e0def4a71be86c6a296462c63601eff6703762d26882078629320614ec847a4",
+      "size": 9545,
+      "source": "Oven project custom mod"
+    }
+  ]
+}
