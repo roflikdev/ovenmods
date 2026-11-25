@@ -673,21 +673,6 @@
       "source_url": "https://cdn.modrinth.com/data/NnSJuVRa/versions/VvSHjZXg/barehanded-neoforge-1.21.1-1.6.6.jar"
     },
     {
-      "name": "create_food",
-      "project_id": "4HnO3el1",
-      "project_url": "https://modrinth.com/mod/4HnO3el1",
-      "side": "both",
-      "version": "3.0.0",
-      "version_id": "uaxLGKon",
-      "version_type": "release",
-      "license": "GPL-3.0-only",
-      "file": "createfood-neoforge-1.21.1-3.0.0.jar",
-      "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/uaxLGKon/createfood-neoforge-1.21.1-3.0.0.jar",
-      "size": 11968172,
-      "sha256": "184514e927f5c5e1dbf85963581f854702f1595b01460aaf0a99b731c07b2f7b",
-      "dependencies": []
-    },
-    {
       "name": "create_lazy_tick",
       "project_id": "Z0d7hFh4",
       "project_url": "https://modrinth.com/mod/Z0d7hFh4",
