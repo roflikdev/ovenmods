@@ -145,30 +145,6 @@
       ]
     },
     {
-      "name": "deco",
-      "project_id": "sMvUb4Rb",
-      "project_url": "https://modrinth.com/mod/create-deco",
-      "side": "both",
-      "version": "2.1.3",
-      "version_id": "qrcMVoBD",
-      "version_type": "release",
-      "license": "MIT",
-      "file": "createdeco-2.1.3-ovenfix.jar",
-      "url": "local:patched/createdeco-2.1.3-ovenfix.jar",
-      "size": 3323381,
-      "sha256": "5bb4e2798b191302c9cfa4bf6f332b3266431738b6a2bf8edb97d8609cd562f6",
-      "sha512": "91970621d22c28c35036b494cf0481a627f07987e08c2e072516dbe3eb2318fd170ca046b3c38096130d456dfc59cf665004370c5ac7f16861de55b06d0845ff",
-      "dependencies": [],
-      "original_file": "createdeco-2.1.3.jar",
-      "original_sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e",
-      "original_sha512": "c536662f9d47ad57a37419165ded14835b23ad6c3e82a920298ecd7ee074244b0b6062ef9cc7ea4501ddd35919a840faccd7fc64e43eb8df31e12076681c3c0d",
-      "source_url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/qrcMVoBD/createdeco-2.1.3.jar",
-      "patch": {
-        "path": "data/createdeco/recipe/placard.json",
-        "change": "ingredient id -> item for Minecraft 1.21.1"
-      }
-    },
-    {
       "name": "diesel_generators",
       "project_id": "ZM3tt6p1",
       "project_url": "https://modrinth.com/mod/create-diesel-generators",
@@ -316,48 +292,6 @@
           "dependency_type": "required"
         }
       ]
-    },
-    {
-      "name": "air_war",
-      "project_id": "GMrNnOis",
-      "project_url": "https://modrinth.com/mod/create-the-air-war",
-      "side": "both",
-      "version": "5.00",
-      "version_id": "moqz93W3",
-      "version_type": "release",
-      "license": "MIT",
-      "file": "create_the_air_wars-5.00-ovenfix.jar",
-      "url": "local:patched/create_the_air_wars-5.00-ovenfix.jar",
-      "size": 21330829,
-      "sha256": "f9362a27384292ab9422f946e62b61e4ccb0bedb07dd9c6f966bdfd896fd3290",
-      "sha512": "e46a2557631aca9b9ca27b82e9dd2af3f02bf09acf5bd87236dbc0bd7a686fe2de74dfc536295c67f3d7efb59175ccc9a483446a4620adaca1e2bb62b37f2c95",
-      "dependencies": [],
-      "original_file": "create_the_air_wars-5.00.jar",
-      "original_sha256": "09f87736350cc23eb578b9868d7767268ef748b1ede8a995c51ee788282e6c1c",
-      "original_sha512": "be45b4cfa6db193799f42620a7c13d63bfb4ff8bf583fd04617f883233a4e58225c092fb4453e72856205b3adaafebf52e952c5bf232ea8188e86acd142fc96c",
-      "patch": {
-        "path": "assets/create_the_air_wars/models/entity/fab_1500.json",
-        "rotations": [
-          [
-            -17.5,
-            -22.5
-          ],
-          [
-            17.5,
-            22.5
-          ],
-          [
-            -10,
-            0
-          ],
-          [
-            10,
-            0
-          ]
-        ],
-        "purpose": "Replace unsupported Minecraft 1.21.1 model angles"
-      },
-      "source_url": "https://cdn.modrinth.com/data/GMrNnOis/versions/moqz93W3/create_the_air_wars-5.00.jar"
     },
     {
       "name": "collision_damage",
@@ -662,6 +596,775 @@
       "sha256": "9e0def4a71be86c6a296462c63601eff6703762d26882078629320614ec847a4",
       "size": 9545,
       "source": "Oven project custom mod"
+    },
+    {
+      "name": "aero_radars",
+      "project_id": "Gxj4Ihed",
+      "project_url": "https://modrinth.com/mod/Gxj4Ihed",
+      "side": "both",
+      "version": "0.1.1-1.21.1",
+      "version_id": "uDnC1TSw",
+      "version_type": "alpha",
+      "license": "MIT",
+      "file": "create_aero_radar-0.1.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Gxj4Ihed/versions/uDnC1TSw/create_aero_radar-0.1.1-1.21.1.jar",
+      "size": 160220,
+      "sha256": "77da138d202ed9fa95f57ee45c411f7af4b6addfa55ff5175bd379b68cd079a6",
+      "dependencies": [
+        {
+          "version_id": "YhZLrAFC",
+          "project_id": "oWaK0Q19",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": "vz0tPRci",
+          "project_id": "BLu2Yqfq",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "GWp4jCJj",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "xxaCKdq3",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "barehanded",
+      "project_id": "NnSJuVRa",
+      "project_url": "https://modrinth.com/mod/NnSJuVRa",
+      "side": "both",
+      "version": "1.6.6",
+      "version_id": "VvSHjZXg",
+      "version_type": "release",
+      "license": "GPL-3.0-or-later",
+      "file": "barehanded-neoforge-1.21.1-1.6.6-ovenfix.jar",
+      "url": "local:patched/barehanded-neoforge-1.21.1-1.6.6-ovenfix.jar",
+      "size": 498621,
+      "sha256": "348f35a65acca20674779f272326722de6799ef66877b9b27efabfbe9b4d6c51",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "original_file": "barehanded-neoforge-1.21.1-1.6.6.jar",
+      "original_sha256": "b3e177e5b082e00f0603c29c6b796d2539ec31d3864abe2149ea92366a14f05b",
+      "patch": {
+        "path": "data/c/tags/block/logs.json",
+        "reason": "Provide the c:logs tag required by Barehanded tree_logs on NeoForge 1.21.1"
+      },
+      "source_url": "https://cdn.modrinth.com/data/NnSJuVRa/versions/VvSHjZXg/barehanded-neoforge-1.21.1-1.6.6.jar"
+    },
+    {
+      "name": "create_food",
+      "project_id": "4HnO3el1",
+      "project_url": "https://modrinth.com/mod/4HnO3el1",
+      "side": "both",
+      "version": "3.1.0",
+      "version_id": "ceXg6dlq",
+      "version_type": "release",
+      "license": "GPL-3.0-only",
+      "file": "createfood-neoforge-1.21.1-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4HnO3el1/versions/ceXg6dlq/createfood-neoforge-1.21.1-3.1.0.jar",
+      "size": 12362963,
+      "sha256": "e8a1355c2325462bfa67b088ee6d20df945d1b1dbe1ed1accf69056c548e68b5",
+      "dependencies": []
+    },
+    {
+      "name": "create_lazy_tick",
+      "project_id": "Z0d7hFh4",
+      "project_url": "https://modrinth.com/mod/Z0d7hFh4",
+      "side": "both",
+      "version": "1.21.1-2.7.33-6.0.10",
+      "version_id": "CsnU8RQG",
+      "version_type": "release",
+      "license": "LicenseRef-PolyForm-Noncommercial-License-1.0.0",
+      "file": "CreateLazyTick-2.7.33-6.0.10-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z0d7hFh4/versions/CsnU8RQG/CreateLazyTick-2.7.33-6.0.10-neoforge-1.21.1.jar",
+      "size": 498553,
+      "sha256": "fac2c31a3f1534c65b2cb13bec4d57bb2ce078dd6abdbca1821655fe72309d38",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "VYRu7qmG",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "u6dRKJwZ",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "create_better_fps",
+      "project_id": "lMYIHZNH",
+      "project_url": "https://modrinth.com/mod/lMYIHZNH",
+      "side": "client",
+      "version": "1.1.5",
+      "version_id": "dxmPYimo",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "createbetterfps-1.21.1-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/lMYIHZNH/versions/dxmPYimo/createbetterfps-1.21.1-1.1.5.jar",
+      "size": 26542,
+      "sha256": "13fff8caa3fd6de652d12f8a989180c502bc11009e2a16bb0f89bb47fa57bac3",
+      "dependencies": []
+    },
+    {
+      "name": "farmers_delight",
+      "project_id": "R2OftAxM",
+      "project_url": "https://modrinth.com/mod/R2OftAxM",
+      "side": "both",
+      "version": "1.21.1-1.3.4",
+      "version_id": "XTVZDOol",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "FarmersDelight-1.21.1-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
+      "size": 3160490,
+      "sha256": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+      "dependencies": []
+    },
+    {
+      "name": "slice_and_dice",
+      "project_id": "GmjmRQ0A",
+      "project_url": "https://modrinth.com/mod/GmjmRQ0A",
+      "side": "both",
+      "version": "4.3.4",
+      "version_id": "D6mQaFRW",
+      "version_type": "release",
+      "license": "LicenseRef-Custom",
+      "file": "sliceanddice-4.3.4-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/D6mQaFRW/sliceanddice-4.3.4-neoforge.jar",
+      "size": 1356389,
+      "sha256": "b3982e89611761d7f1cdce90794cd88498a2c9e1447d8a1aba33ed831f3c9201",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "R2OftAxM",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "ordsPcFz",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "JWGBpFUP",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "display_delight",
+      "project_id": "yXepZhp8",
+      "project_url": "https://modrinth.com/mod/yXepZhp8",
+      "side": "both",
+      "version": "1.7.0",
+      "version_id": "xiS3GrrW",
+      "version_type": "release",
+      "license": "LGPL-3.0-or-later",
+      "file": "displaydelight-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/yXepZhp8/versions/xiS3GrrW/displaydelight-1.7.0.jar",
+      "size": 1144367,
+      "sha256": "4a77575139aa2fd1e1887243461e4f5cf1a532ac0a3a4d3a80c469d07a6df55c",
+      "dependencies": []
+    },
+    {
+      "name": "jei",
+      "project_id": "u6dRKJwZ",
+      "project_url": "https://modrinth.com/mod/u6dRKJwZ",
+      "side": "client",
+      "version": "19.64.0.455",
+      "version_id": "iv3KiVkE",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "jei-1.21.1-neoforge-19.64.0.455.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iv3KiVkE/jei-1.21.1-neoforge-19.64.0.455.jar",
+      "size": 2375741,
+      "sha256": "f7a9de3d7ee07eed8d293a1a1a0f6afaac556eb43c103523457bd07ebb551e7b",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "BOHUKqOz",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "7tEfOcA7",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "better_f3",
+      "project_id": "8shC1gFX",
+      "project_url": "https://modrinth.com/mod/8shC1gFX",
+      "side": "client",
+      "version": "11.0.3",
+      "version_id": "maXNB1dn",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "BetterF3-11.0.3-NeoForge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/maXNB1dn/BetterF3-11.0.3-NeoForge-1.21.1.jar",
+      "size": 481646,
+      "sha256": "1a97b6ca5c81b3b18d653f403929908e3b48bb1bdb6e8bd8559f89cf0294dc26",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "mouse_tweaks",
+      "project_id": "aC3cM3Vq",
+      "project_url": "https://modrinth.com/mod/aC3cM3Vq",
+      "side": "client",
+      "version": "1.21-2.26.1-neoforge",
+      "version_id": "9I21YYxf",
+      "version_type": "release",
+      "license": "BSD-3-Clause",
+      "file": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "size": 73938,
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
+      "dependencies": []
+    },
+    {
+      "name": "chat_animation",
+      "project_id": "DnNYdJsx",
+      "project_url": "https://modrinth.com/mod/DnNYdJsx",
+      "side": "client",
+      "version": "1.3.5+neoforge-1.21",
+      "version_id": "ObpFSVJe",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "chatanimation-neoforge-1.3.5+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/DnNYdJsx/versions/ObpFSVJe/chatanimation-neoforge-1.3.5%2Bmc1.21.jar",
+      "size": 1068711,
+      "sha256": "94cdd57cdd4d64d60b51e31eb80d9f56e1fe841e21bb75e7f67d76fb5694694a",
+      "dependencies": []
+    },
+    {
+      "name": "simple_voice_chat",
+      "project_id": "9eGKb6K1",
+      "project_url": "https://modrinth.com/mod/9eGKb6K1",
+      "side": "both",
+      "version": "neoforge-1.21.1-2.6.22",
+      "version_id": "2s7zUspF",
+      "version_type": "release",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "file": "voicechat-neoforge-1.21.1-2.6.22.jar",
+      "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/2s7zUspF/voicechat-neoforge-1.21.1-2.6.22.jar",
+      "size": 4918442,
+      "sha256": "63116a4d21bd57221482d971dd85822f7c723c210b60411670cdb0aa26873cac",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "9eGKb6K1",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "corpse",
+      "project_id": "WrpuIfhw",
+      "project_url": "https://modrinth.com/mod/WrpuIfhw",
+      "side": "both",
+      "version": "neoforge-1.21.1-1.1.22",
+      "version_id": "SElnDbg1",
+      "version_type": "release",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "file": "corpse-neoforge-1.21.1-1.1.22.jar",
+      "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/SElnDbg1/corpse-neoforge-1.21.1-1.1.22.jar",
+      "size": 256780,
+      "sha256": "3733d86452b9ac572e924c2946e15e6b7052cc8fc990911f1c79b36ac3651b9f",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "XQ2oaWrb",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "nvQzSEkH",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "cloth_config",
+      "project_id": "9s6osm5g",
+      "project_url": "https://modrinth.com/mod/9s6osm5g",
+      "side": "client",
+      "version": "15.0.140+neoforge",
+      "version_id": "izKINKFg",
+      "version_type": "release",
+      "license": "LGPL-3.0-only",
+      "file": "cloth-config-15.0.140-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
+      "size": 1163890,
+      "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
+      "dependencies": []
+    },
+    {
+      "name": "mezz_config",
+      "project_id": "7tEfOcA7",
+      "project_url": "https://modrinth.com/mod/7tEfOcA7",
+      "side": "client",
+      "version": "0.7.1",
+      "version_id": "V6oWFnxW",
+      "version_type": "beta",
+      "license": "MIT",
+      "file": "mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/V6oWFnxW/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
+      "size": 347249,
+      "sha256": "c42510938584eda0aae134003e367d745fd32ceac1836221cecac4cbc7bfa3a1",
+      "dependencies": []
+    },
+    {
+      "name": "kotlin_for_forge",
+      "project_id": "ordsPcFz",
+      "project_url": "https://modrinth.com/mod/ordsPcFz",
+      "side": "both",
+      "version": "5.13.0",
+      "version_id": "9ZlVvei8",
+      "version_type": "release",
+      "license": "LGPL-2.1-only",
+      "file": "kotlinforforge-5.13.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/9ZlVvei8/kotlinforforge-5.13.0-all.jar",
+      "size": 7364729,
+      "sha256": "1aa52c3e992d8ee4d1b9e9bdb0c62bf7ad03845195136d63f312ade6f30809de",
+      "dependencies": []
+    },
+    {
+      "name": "iris",
+      "project_id": "YL57xq9U",
+      "project_url": "https://modrinth.com/mod/YL57xq9U",
+      "side": "client",
+      "version": "1.8.14-beta.1+1.21.1-neoforge",
+      "version_id": "KduFYu4t",
+      "version_type": "beta",
+      "license": "LGPL-3.0-only",
+      "file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "size": 2540723,
+      "sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+      "dependencies": [
+        {
+          "version_id": "uMOpc5uV",
+          "project_id": "AANobbMI",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "architectury",
+      "project_id": "lhGA9TYQ",
+      "project_url": "https://modrinth.com/mod/architectury-api",
+      "side": "both",
+      "version": "13.0.12+neoforge",
+      "version_id": "xGfBrBzj",
+      "version_type": "release",
+      "license": "LGPL-3.0-only",
+      "file": "architectury-13.0.12-neoforge.jar",
+      "upstream_file": "architectury-13.0.12-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/xGfBrBzj/architectury-13.0.12-neoforge.jar",
+      "size": 584731,
+      "sha256": "aa558d884c9d35399bf5471e042d6be30c32e4a1cf0a5d06a4480ad49dba3ac0",
+      "sha512": "286127f99708d1e2723e1dcc9104ebcab258f04db92040fc2394e5b7faf36d731ef3b84e592d94ec0d0f7f899eca84f806b1e012223da4894d4d8af5030ffe0f",
+      "dependencies": []
+    },
+    {
+      "name": "badoptimizations",
+      "project_id": "g96Z4WVZ",
+      "project_url": "https://modrinth.com/mod/badoptimizations",
+      "side": "client",
+      "version": "2.4.1",
+      "version_id": "S2qthD5S",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "upstream_file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "size": 283566,
+      "sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+      "sha512": "2b66428bd98bd5ec0e09f2ec6af801cefb7b9b99cc4f0993daeaffe8d0ccc5ee0c2a73e9f38d4f92540ead0181704d2c9e946837ec05cf710fc3b20fce3b0cac",
+      "dependencies": []
+    },
+    {
+      "name": "blueprint",
+      "project_id": "VsM5EDoI",
+      "project_url": "https://modrinth.com/mod/blueprint",
+      "side": "both",
+      "version": "8.2.0",
+      "version_id": "FHOjk8Ez",
+      "version_type": "release",
+      "license": "LicenseRef-Abnormals-License",
+      "file": "blueprint-1.21.1-8.2.0.jar",
+      "upstream_file": "blueprint-1.21.1-8.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/VsM5EDoI/versions/FHOjk8Ez/blueprint-1.21.1-8.2.0.jar",
+      "size": 1214507,
+      "sha256": "698b2e901e371202a583c1057fa50bb7b2415a359263b37dc8e62d3b73ea8a74",
+      "sha512": "0b523c2d53a56676286ddd13adbe65b1a24f5af6040dbec6af9a38cc535b7ba2531a1879afb7a496c407683eacbfbed22701053861a5fd12271b08ac93239db4",
+      "dependencies": []
+    },
+    {
+      "name": "crashexploitfixer",
+      "project_id": "Z5GdSH3X",
+      "project_url": "https://modrinth.com/mod/crashexploitfixer",
+      "side": "server",
+      "version": "neoforge-2.0.0+1.21.4",
+      "version_id": "8foOfmdZ",
+      "version_type": "release",
+      "license": "GPL-3.0-only",
+      "file": "crashexploitfixer-neoforge-2.0.0+1.21.4.jar",
+      "upstream_file": "crashexploitfixer-neoforge-2.0.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/Z5GdSH3X/versions/8foOfmdZ/crashexploitfixer-neoforge-2.0.0%2B1.21.4.jar",
+      "size": 694835,
+      "sha256": "32c7be498962d54b28dfb902c1509596442048a3ae72bd3f7884ab853d0e4464",
+      "sha512": "7cb749d56be276dea9c2640c3fb6816c3458e8af1ebb427b309ce6b01d0a3f631e9494d9cffc8ea1cb75043eb3b209fd3cd9603db6ba7f273e36e9690a178162",
+      "dependencies": []
+    },
+    {
+      "name": "fzzy_config",
+      "project_id": "hYykXjDp",
+      "project_url": "https://modrinth.com/mod/fzzy-config",
+      "side": "client",
+      "version": "0.7.7+fix1+1.21+neoforge",
+      "version_id": "jRuOkBAG",
+      "version_type": "release",
+      "license": "LicenseRef-TDL-M",
+      "file": "fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
+      "upstream_file": "fzzy_config-0.7.7+fix1+1.21+neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/jRuOkBAG/fzzy_config-0.7.7%2Bfix1%2B1.21%2Bneoforge.jar",
+      "size": 2392720,
+      "sha256": "414782aba00502349da192c1affcd4cbaf653119ec26605453f1b0690b3f8cc5",
+      "sha512": "7ea074ac2bee3471a213ed6e55d3beafded16631ea517ecbc6711324f6af82b697c9d391aaadcefff67eda13d5dcc2bfb5011373c73a7015761060b6d89cf15c",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "ordsPcFz",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "geophilic",
+      "project_id": "hl5OLM95",
+      "project_url": "https://modrinth.com/mod/geophilic",
+      "side": "server",
+      "version": "3.7",
+      "version_id": "5kFV8CEz",
+      "version_type": "release",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "file": "geophilic-3.7.jar",
+      "upstream_file": "Geophilic v3.7.mod.jar",
+      "url": "https://cdn.modrinth.com/data/hl5OLM95/versions/5kFV8CEz/Geophilic%20v3.7.mod.jar",
+      "size": 1115993,
+      "sha256": "9e6a98b438e078f2e4f5b79f71bfc715a730369f8cf42fd287c6e43c7441cfae",
+      "sha512": "7731d6d7f85af0dc9eb232138b1dc1096f083d13a9f3e592b84f6c89a97cca0c642c68d5943e0e63bd35e93002708b945554991f519b754a04c6eec058305c19",
+      "dependencies": []
+    },
+    {
+      "name": "no_chat_reports",
+      "project_id": "qQyHxfxd",
+      "project_url": "https://modrinth.com/mod/no-chat-reports",
+      "side": "both",
+      "version": "NeoForge-1.21.1-v2.9.1",
+      "version_id": "ZV8eL55E",
+      "version_type": "release",
+      "license": "WTFPL",
+      "file": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "upstream_file": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/ZV8eL55E/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+      "size": 306668,
+      "sha256": "866ac9a47afcd829bdb03890b5d8f80bb4c6f47332c64717b6e909bee51337b6",
+      "sha512": "292a3623b5addb17e9f15681a4f2534562e9882ef809e504f49da4778fafc12e21a71995b5d05554d435201f401ace1e86af50e6e26f6ce9d203a5896a1ece21",
+      "dependencies": []
+    },
+    {
+      "name": "particle_core",
+      "project_id": "RSeLon5O",
+      "project_url": "https://modrinth.com/mod/particle-core",
+      "side": "client",
+      "version": "0.3.3+1.21+neoforge",
+      "version_id": "2QF4NhZD",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "particle_core-0.3.3+1.21+neoforge.jar",
+      "upstream_file": "particle_core-0.3.3+1.21+neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/2QF4NhZD/particle_core-0.3.3%2B1.21%2Bneoforge.jar",
+      "size": 138375,
+      "sha256": "38c05981d1dc8428c7ab1130b9ec7f05bca1b70f909aba9c454c9611702a8dda",
+      "sha512": "bf14200f4f279c2c5f5a50e09ef561f34463848fde507cb5930e4f4dbfed107697387ce030593be37a14da73cc459b0901928466fb44b2c2a387c584f38ec489",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "ordsPcFz",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "hYykXjDp",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "personality",
+      "project_id": "zrAMu1nt",
+      "project_url": "https://modrinth.com/mod/personality",
+      "side": "both",
+      "version": "5.0.2",
+      "version_id": "GQKsKYS3",
+      "version_type": "release",
+      "license": "LicenseRef-Abnormals-License",
+      "file": "personality-1.21.1-5.0.2.jar",
+      "upstream_file": "personality-1.21.1-5.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/zrAMu1nt/versions/GQKsKYS3/personality-1.21.1-5.0.2.jar",
+      "size": 317587,
+      "sha256": "9c0fd81a32f60b8af933816d06f2cf58d53ce6433221b820ab0b90df686df248",
+      "sha512": "5634d58682a5b41f9e351f7970e1a0f9a56b88ebb27b6c2deba0370f322f281ddfb3aea0011cb85c8488ee0cdc0cbf1e8ddbb8fb6fcd3f8a4bfb06b670533a72",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "VsM5EDoI",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "power_grid",
+      "project_id": "eWiBLJ9R",
+      "project_url": "https://modrinth.com/mod/power-grid",
+      "side": "both",
+      "version": "0.6.2",
+      "version_id": "jCkPHjmP",
+      "version_type": "release",
+      "license": "Apache-2.0",
+      "file": "powergrid-mc1.21.1-0.6.2.jar",
+      "upstream_file": "powergrid-mc1.21.1-0.6.2.jar",
+      "url": "https://cdn.modrinth.com/data/eWiBLJ9R/versions/jCkPHjmP/powergrid-mc1.21.1-0.6.2.jar",
+      "size": 5738480,
+      "sha256": "e40d67a874431925d502af88e85064883c67936cfd689033d7df560cffcf19e7",
+      "sha512": "60307e23a27526d22bf753d387edef5a2f2a063a04a47b69e98b7f71bbad32fdf17e05f9838008e47a5999a60e5e77a91f0695215d0ab57694f0034fde9873ca",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "lhGA9TYQ",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "ragdoll_reactions",
+      "project_id": "6awFMFjR",
+      "project_url": "https://modrinth.com/mod/ragdoll-reactions",
+      "side": "both",
+      "version": "0.8.0",
+      "version_id": "ITBE1E6c",
+      "version_type": "release",
+      "license": "Apache-2.0",
+      "file": "ragdoll_reactions-1.21.1-0.8.0.jar",
+      "upstream_file": "ragdoll_reactions-1.21.1-0.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/6awFMFjR/versions/ITBE1E6c/ragdoll_reactions-1.21.1-0.8.0.jar",
+      "size": 226703,
+      "sha256": "aeaaa51c368e7a41589e329762ea87c4f8db258e314c847b84b185b08c285ab3",
+      "sha512": "3f5aadd27f8ba2f19cdf432e052617f2ddd9abf152c36edd2eacd3e944b43faea57ec86f198b998bdfff776d6aa82709f5e0b52c9cb8e185d3fc1860a7e65cfd",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "I3mWDgfy",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": "OLG7vDD6",
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "reeses_options",
+      "project_id": "Bh37bMuy",
+      "project_url": "https://modrinth.com/mod/reeses-sodium-options",
+      "side": "client",
+      "version": "mc1.21.1-2.2.6+neoforge",
+      "version_id": "nRS0RBpc",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "reeses-sodium-options-neoforge-2.2.6+mc1.21.1.jar",
+      "upstream_file": "reeses-sodium-options-neoforge-2.2.6+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/nRS0RBpc/reeses-sodium-options-neoforge-2.2.6%2Bmc1.21.1.jar",
+      "size": 266738,
+      "sha256": "9e636024b592b580b53b32d38aedcd1ff5e0a429b0b1b79629ef628e0199e881",
+      "sha512": "1b01b52e26739a0584c805c9cbcbdb12b6fe26f5925c76564ec8319ca9985651d766881a1e1eb8de12ab8cfed54d83d1a751877e6aece0beec67003713c3402c",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "AANobbMI",
+          "file_name": null,
+          "dependency_type": "required"
+        },
+        {
+          "version_id": null,
+          "project_id": "YL57xq9U",
+          "file_name": null,
+          "dependency_type": "optional"
+        },
+        {
+          "version_id": null,
+          "project_id": "PtjYWJkn",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
+    },
+    {
+      "name": "sable_player_ragdoll",
+      "project_id": "I3mWDgfy",
+      "project_url": "https://modrinth.com/mod/sable-ragdolls",
+      "side": "both",
+      "version": "0.8.1",
+      "version_id": "7VQ9pGev",
+      "version_type": "release",
+      "license": "Apache-2.0",
+      "file": "sable_player_ragdoll-1.21.1-0.8.1.jar",
+      "upstream_file": "sable_player_ragdoll-1.21.1-0.8.1.jar",
+      "url": "https://cdn.modrinth.com/data/I3mWDgfy/versions/7VQ9pGev/sable_player_ragdoll-1.21.1-0.8.1.jar",
+      "size": 1529122,
+      "sha256": "52231de8cf20713040e948ec41c0813d8b1eab2e7ec327c1ff5da8bdc3ba33fd",
+      "sha512": "3cb14194cd5fac318cd0933a059442463a6a620926bdccb04d44d81e7c9fb0578f7a95f494f37f9b70ee32fac1e2f18e81203a2acc52f4d264897f1a691f8b85",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "T9PomCSv",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "tiny_item_animations",
+      "project_id": "wMkevcSR",
+      "project_url": "https://modrinth.com/mod/tiny-item-animations",
+      "side": "client",
+      "version": "1.2.1",
+      "version_id": "mSJPeo1D",
+      "version_type": "release",
+      "license": "LicenseRef-LPUL",
+      "file": "tia-neoforge-1.21-1.2.1.jar",
+      "upstream_file": "tia-neoforge-1.21-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/wMkevcSR/versions/mSJPeo1D/tia-neoforge-1.21-1.2.1.jar",
+      "size": 18957,
+      "sha256": "6b157d1ff7d7973d9c53a41f06906b6c0a30cec5bd4a852e8c0f55f078a14382",
+      "sha512": "61fc6c865ab13bb81d3d6f99f89b6ecb777278d9b37054a3b18559f3be86412546f2a7c4a502742b3cf3d9ef6fccdd1995546b5ebaab781cf2d3f768a7a8719f",
+      "dependencies": []
+    },
+    {
+      "name": "ultimate_factory",
+      "project_id": "N9QToVpw",
+      "project_url": "https://modrinth.com/mod/create-ultimate-factory",
+      "side": "both",
+      "version": "2.2.4",
+      "version_id": "AEMRNsNS",
+      "version_type": "release",
+      "license": "LicenseRef-All-Rights-Reserved",
+      "file": "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "upstream_file": "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/N9QToVpw/versions/AEMRNsNS/create_ultimate_factory-2.2.4-neoforge-1.21.1.jar",
+      "size": 235239,
+      "sha256": "b95dcdd43c859eaf1825f33b2b4c42226187a1e875d368b0b24ed0be1e0fa1b0",
+      "sha512": "2a1d1e6e27aa0744d131ad12dcc4e3bcae2d5d10c620cc566cb0300c63a66bced1c55be0b636998f3773e3a7b384e74ef06395ec7ee6a90649f7702c9a893b0d",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "LNytGWDc",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "create_interiors",
+      "project_id": "r4Knci2k",
+      "project_url": "https://modrinth.com/mod/interiors",
+      "side": "both",
+      "version": "0.6.1",
+      "version_id": "gBrfZy6S",
+      "version_type": "release",
+      "license": "GPL-3.0-or-later",
+      "file": "interiors-1.21.1-neoforge-0.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/r4Knci2k/versions/gBrfZy6S/interiors-1.21.1-neoforge-0.6.1.jar",
+      "size": 486912,
+      "sha256": "0d1326fb8b67623ae1c69a63b788dcdcecaf8df400c7d8e5e55ace79a5166fe5",
+      "sha512": "68b0d915e41fb0ce9d12a8c580d688a604770ded2b21e963058aa6d80cbc5661c481416d051a541395b5c79f461edcb658046e53cfcfb405179a450662ed01b5",
+      "dependencies": []
     }
   ]
 }

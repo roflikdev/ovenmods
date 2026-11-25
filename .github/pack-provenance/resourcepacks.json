@@ -1,0 +1,35 @@
+[
+  {
+    "name": "sodium_translations",
+    "project_id": "yfDziwn1",
+    "project_url": "https://modrinth.com/resourcepack/translations-for-sodium",
+    "side": "resourcepack",
+    "version": "v9.0.0",
+    "version_id": "icQ18kbk",
+    "version_type": "release",
+    "license": "CC0-1.0",
+    "file": "SodiumTranslations-9.0.0.zip",
+    "upstream_file": "SodiumTranslations.zip",
+    "url": "https://cdn.modrinth.com/data/yfDziwn1/versions/icQ18kbk/SodiumTranslations.zip",
+    "size": 289781,
+    "sha256": "01a2e16961c5622a8b5fc64d8c81447e3cbe22197d14078080ecab414463e599",
+    "sha512": "7581176dbee2906c6a2156bb90c94e0b329121a8324159a32d44a95eca4ca3cced0c64c40b1ef82ce10966814bec3cbc9d6cfbecc539e3e9976b17fd73218699",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "AANobbMI",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "name": "oven_ru_missing",
+    "side": "resourcepack",
+    "version": "1.0",
+    "source": "Oven SMP localization supplement; source in .github/pack-provenance/ru_ru_missing.json",
+    "file": "OvenSMP-Russian-1.0.zip",
+    "size": 67284,
+    "sha256": "4fcee23ac8a28b952a2e2d36cbefcb78988d80e18dc734fbaf171ec5cf671e32"
+  }
+]

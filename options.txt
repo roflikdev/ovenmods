@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","mod_resources"]
+resourcePacks:["vanilla","mod_resources","file/SodiumTranslations-9.0.0.zip","file/OvenSMP-Russian-1.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
