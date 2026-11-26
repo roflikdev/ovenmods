@@ -1,0 +1,2 @@
+# Oven SMP: the player gets up automatically; the control popup is unnecessary.
+showControlsHint = false
