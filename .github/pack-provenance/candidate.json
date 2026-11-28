@@ -592,9 +592,9 @@
     {
       "name": "oven_tab",
       "side": "both",
-      "file": "oventab-1.21.1-1.3.2.jar",
-      "sha256": "8447164bbad7293059faf9ea14505b78c3c98df956ade94794163d84bb76c250",
-      "size": 65354,
+      "file": "oventab-1.21.1-1.3.3.jar",
+      "sha256": "8a7e301015435cce9d4e53fa2ddadc4e3cf7ce1fecca2f9db8efa1af9262f7c6",
+      "size": 72078,
       "source": "Oven project custom mod"
     },
     {
