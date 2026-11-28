@@ -1295,23 +1295,6 @@
       ]
     },
     {
-      "name": "tiny_item_animations",
-      "project_id": "wMkevcSR",
-      "project_url": "https://modrinth.com/mod/tiny-item-animations",
-      "side": "client",
-      "version": "1.2.1",
-      "version_id": "mSJPeo1D",
-      "version_type": "release",
-      "license": "LicenseRef-LPUL",
-      "file": "tia-neoforge-1.21-1.2.1.jar",
-      "upstream_file": "tia-neoforge-1.21-1.2.1.jar",
-      "url": "https://cdn.modrinth.com/data/wMkevcSR/versions/mSJPeo1D/tia-neoforge-1.21-1.2.1.jar",
-      "size": 18957,
-      "sha256": "6b157d1ff7d7973d9c53a41f06906b6c0a30cec5bd4a852e8c0f55f078a14382",
-      "sha512": "61fc6c865ab13bb81d3d6f99f89b6ecb777278d9b37054a3b18559f3be86412546f2a7c4a502742b3cf3d9ef6fccdd1995546b5ebaab781cf2d3f768a7a8719f",
-      "dependencies": []
-    },
-    {
       "name": "ultimate_factory",
       "project_id": "N9QToVpw",
       "project_url": "https://modrinth.com/mod/create-ultimate-factory",
@@ -1350,6 +1333,68 @@
       "sha256": "0d1326fb8b67623ae1c69a63b788dcdcecaf8df400c7d8e5e55ace79a5166fe5",
       "sha512": "68b0d915e41fb0ce9d12a8c580d688a604770ded2b21e963058aa6d80cbc5661c481416d051a541395b5c79f461edcb658046e53cfcfb405179a450662ed01b5",
       "dependencies": []
+    },
+    {
+      "name": "controlling",
+      "project_id": "xv94TkTM",
+      "project_url": "https://modrinth.com/mod/xv94TkTM",
+      "side": "client",
+      "version": "19.0.7",
+      "version_id": "oxEkNE0l",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "Controlling-neoforge-1.21.1-19.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/oxEkNE0l/Controlling-neoforge-1.21.1-19.0.7.jar",
+      "size": 77540,
+      "sha256": "369bbadd4b389884dcbe84f3d9fb0133167af9bc9b37d6912f44d35c9bb62aef",
+      "sha512": "b7d2cec22a40642db9669fedd054a0277fb1f5c7750a89b5fbb3fabeae33e2a21ef1d89d1e87892c0b46fdaa4bdd4e74087bf375bf1d3f22f1492efa5406f916",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "fuuu3xnx",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ]
+    },
+    {
+      "name": "searchables",
+      "project_id": "fuuu3xnx",
+      "project_url": "https://modrinth.com/mod/fuuu3xnx",
+      "side": "client",
+      "version": "1.0.2",
+      "version_id": "iEE85X0w",
+      "version_type": "release",
+      "license": "MIT",
+      "file": "Searchables-neoforge-1.21.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar",
+      "size": 77326,
+      "sha256": "ca193f0c69033d8f709f9e073a7c1ef4ea46714e5c2f94eb23ace12781c6aa68",
+      "sha512": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a",
+      "dependencies": []
+    },
+    {
+      "name": "chat_heads",
+      "project_id": "Wb5oqrBJ",
+      "project_url": "https://modrinth.com/mod/Wb5oqrBJ",
+      "side": "client",
+      "version": "0.15.7",
+      "version_id": "ZPylso9i",
+      "version_type": "release",
+      "license": "MPL-2.0",
+      "file": "chat_heads-0.15.7-neoforge-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/ZPylso9i/chat_heads-0.15.7-neoforge-1.21.jar",
+      "size": 91948,
+      "sha256": "02e10437ceeed34e14e0efe206204658e4b8aa8ee7df10f2a9e28ac20f1b0391",
+      "sha512": "97ec4a08ffe54917591e7e05ba5ed9359e591719e4f3246745de36923a8080e68332aff28be437997c40a215b7aebc3537df892c99db4de6a5348ac7b4995144",
+      "dependencies": [
+        {
+          "version_id": null,
+          "project_id": "9s6osm5g",
+          "file_name": null,
+          "dependency_type": "optional"
+        }
+      ]
     }
   ]
 }

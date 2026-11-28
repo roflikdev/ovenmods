@@ -2353,5 +2353,16 @@
     "cloth_config.voicechat.config.show_nametag_icons.description": "Должны ли быть видны значки голосового чата рядом с именами игроков?",
     "cloth_config.voicechat.config.show_hud_icons": "Показывать значки HUD голосового чата",
     "cloth_config.voicechat.config.show_hud_icons.description": "Должны ли быть видны значки голосового чата на HUD"
+  },
+  "chat_heads": {
+    "text.autoconfig.chat_heads.option.threeDeeNess": "Объёмные головы",
+    "text.autoconfig.chat_heads.option.threeDeeNess.@Tooltip": "Немного увеличивает верхний слой головы, чтобы она выглядела объёмнее. Возможны ошибки отображения.",
+    "text.autoconfig.chat_heads.option.detectNameAliases": "Определять другие имена",
+    "text.autoconfig.chat_heads.option.detectNameAliases.@Tooltip": "Определяет другие имена игроков по ответам команды /realname на серверах EssentialsX.",
+    "text.autoconfig.chat_heads.option.drawShadow": "Тень"
+  },
+  "controlling": {
+    "options.sortKeyAZ": "Клавиши: А–Я",
+    "options.sortKeyZA": "Клавиши: Я–А"
   }
 }
